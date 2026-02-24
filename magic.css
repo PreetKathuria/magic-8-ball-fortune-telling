@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-shadow: 20px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'robot';
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+heading {
+    font-size: 30px;
+    margin-top: 40px;
+    text-shadow: 
+      0 0 5px #a855f7,
+      0 0 10px #a855f7,
+      0 0 20px #9333ea,
+      0 0 40px #7e22ce;
+    color: #ffffff;
+}
+
+l {
+    font-weight: lighter;
+    letter-spacing: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vh;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+d {
+    color: #6ca2dc;
+    text-shadow: 
+        0px 0px 5px #416b97,
+        0px 0px 10px #416b97,
+        0px 0px 20px #416b97,
+        0px 0px 40px #416b97;
+    font-size: 20px;
+    text-align: center   
+}
+
+input {
+    margin-top: 15px;
+    width: 220px;
+    height: 25px;
+    text-align: center;
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 30px;
+    background-color: #17134a;
+    color: #9397d4;
+    box-shadow: 
+        0px 0px 5px #5345cb,
+        0px 0px 10px #5345cb,
+        0px 0px 20px #5345cb,
+        0px 0px 40px #5345cb;
+}
+
+
+button {
+    margin-top: 25px;
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #3c1090;
+    color: #fdfefc;
+    box-shadow: 
+        inset 0px 0px 5px #7459e6,
+        inset 0px 0px 10px #7459e6,
+        inset 0px 0px 20px #7459e6,
+        inset 0px 0px 40px #7459e6;
+}
+
+.ball {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: 
+            radial-gradient(circle at 30% 30%, 
+            #444 0%, 
+            #000 60%, 
+            #000 100%);
+    box-shadow:
+        inset -10px -20px 40px rgba(255,255,255,0.1),
+    0 0 40px #7e22ce;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innsideball {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle, rgba(255,255,255,0.6), transparent);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#awn {
+    margin-top: 40px;
+    color: #dbcde1;
+    font-size: larger;
+}
+
+#awnser {
+    color: #4eecf9;
+}
