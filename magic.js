@@ -2,9 +2,13 @@ const startBtn = document.getElementById("btn");
 const input = document.getElementById("input");
 const output = document.getElementById("output");
 const awnser = document.getElementById("awnser");
+const ball = document.querySelector(".ball");
+
+output.innerText = "";
 
 startBtn.addEventListener("click",() => {
     if(problem()) {
+        transitioning();
         luckGenerating();
     }
 });
@@ -39,4 +43,12 @@ async function luckGenerating() {
     catch(error) {
         alert("api is not supporting");
     }
+};
+
+function transitioning() {
+    ball.classList.add("rotate");
+
+    setTimeout(() => {
+        ball.classList.remove("rotate");
+    },5000);
 };

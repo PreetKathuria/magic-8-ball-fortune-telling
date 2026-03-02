@@ -123,3 +123,16 @@ button {
 #awnser {
     color: #4eecf9;
 }
+
+.rotate {
+    animation: spin 0.5s linear 5;
+}
+
+@keyframes spin {
+    from {
+        transform: rotatex(0deg);
+    }
+    to {
+        transform: rotatex(360deg);
+    }
+}
