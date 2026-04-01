@@ -15,7 +15,7 @@ here uou can genearte your fortune by generate clicking it msde using api
 1. Clone the repository
 2. Open magic.html in your browser
 
-![Screenshot](Screenshot%202026-04-01%20173119.png)
+![Screenshot](Screenshot%202026-04-01%20171319.png)
 
 *Author 
 Made with ❤️ by Preet
